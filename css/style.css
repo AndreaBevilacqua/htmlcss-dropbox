@@ -30,9 +30,6 @@ a {
     transform: scale(1.1);
 }
 
-img {
-    width: 100%;
-}
 
 /* Utils */
 
@@ -107,6 +104,10 @@ h1 {
     margin-top: 120px;
     font-size: 60px;
     cursor: pointer;
+}
+
+.jumbotron img {
+    width: 100%;
 }
 
 .jmb-left {
