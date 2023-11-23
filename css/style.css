@@ -30,6 +30,15 @@ a {
     transform: scale(1.1);
 }
 
+.card-title {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
+.row i {
+    margin-right: 5px;
+}
 
 /* Utils */
 
@@ -46,6 +55,10 @@ a {
 
 .flex {
     display: flex;
+}
+
+.gray-text {
+    color: rgb(138, 138, 138);
 }
 
 /* Header */
@@ -117,6 +130,69 @@ h1 {
 .jmb-right {
     flex-basis: 70%;
 }
+
+/* Main */
+
+h2 {
+    margin-top: 170px;
+    margin-bottom: 60px;
+    font-size: 2.5rem;
+}
+
+/* Checkbox */
+
+.checkbox {
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.blue-circle {
+    width: 20px;
+    height: 20px;
+    border: 4px solid #0061FF; 
+    border-radius: 50%;
+    position: relative;
+  }
+
+  .grey-circle {
+    width: 20px;
+    height: 20px;
+    border: 3px solid lightgray; 
+    border-radius: 50%;
+    position: relative;
+  }
+
+  /* Plans */
+
+  .card-content {
+    padding: 40px 35px;
+  }
+
+  .row {
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+  .col {
+    flex-basis: calc(100% / 3);
+    border: 1px solid lightgray;
+}
+
+.row ul {
+    list-style-type: none;
+}
+
+.row li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
 
 
 
