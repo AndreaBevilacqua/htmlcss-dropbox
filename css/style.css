@@ -9,7 +9,7 @@
 /* Generics */
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif;
     padding-top: 80px;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 .btn-blue {
-    padding: 8px 13px;
+    padding: 8px 15px;
     background-color: #0061FF;
     color: white;
     margin-right: 20px;
@@ -28,6 +28,10 @@ a {
 
 .btn-blue:hover {
     transform: scale(1.1);
+}
+
+img {
+    width: 100%;
 }
 
 /* Utils */
@@ -41,6 +45,7 @@ a {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 
 .flex {
     display: flex;
@@ -76,5 +81,33 @@ header {
     margin-left: 20px;
 }
 
+/* Jumbotron */
 
+.jumbotron {
+    background-color: #B4D0E7;
+    padding-top: 80px;
+    height: 750px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 75px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 60px;
+}
+
+.jumbotron a {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: block;
+    width: 60%;
+}
+
+.jmb-left {
+    flex-basis: 30%;
+}
+
+.jmb-right {
+    flex-basis: 70%;
+}
 
