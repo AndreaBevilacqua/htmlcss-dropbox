@@ -9,12 +9,72 @@
 /* Generics */
 
 body {
-    font-family: sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 80px;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(39, 39, 39);
+}
+
+.btn-blue {
+    padding: 8px 13px;
+    background-color: #0061FF;
+    color: white;
+    margin-right: 20px;
+}
+
+.btn-blue:hover {
+    transform: scale(1.1);
 }
 
 /* Utils */
 
-.container {
+.container-main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-secondary {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.flex {
+    display: flex;
+}
+
+/* Header */
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 1px 10px #666;
+}
+
+.navbar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav  {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#logo {
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+
+
