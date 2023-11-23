@@ -103,6 +103,12 @@ h1 {
     width: 60%;
 }
 
+.jumbotron i {
+    margin-top: 120px;
+    font-size: 60px;
+    cursor: pointer;
+}
+
 .jmb-left {
     flex-basis: 30%;
 }
@@ -110,4 +116,6 @@ h1 {
 .jmb-right {
     flex-basis: 70%;
 }
+
+
 
