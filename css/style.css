@@ -44,6 +44,8 @@ ul {
     list-style-type: none;
 }
 
+
+
 /* Utils */
 
 .container-main {
@@ -73,6 +75,16 @@ ul {
     flex-basis: 30%;
 }
 
+.col-60{
+    flex-basis: 60%;
+}
+
+.col-40 {
+    flex-basis: 40%;
+    padding: 55px;
+}
+
+
 /* Header */
 
 header {
@@ -98,7 +110,7 @@ header {
     gap: 30px;
 }
 
-#logo {
+img#logo {
     margin-right: 40px;
     margin-left: 20px;
 }
@@ -185,7 +197,7 @@ h2 {
 }
 
   .full-col,.col {
-    flex-basis: calc(100% / 3 -20px / 3);
+    flex-basis: calc(100% / 3 );
     border: 1px solid lightgray;
 }
 
@@ -235,8 +247,55 @@ a.buy-now {
 }
 
 
+/* Partner section */
+
+.partner {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#partner {
+    width: 100%;
+}
+
+.partner p {
+    line-height: 1.4;
+    text-align: left;
+}
+
+.btn-gray {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #666;
+    padding: 12px 20px;
+    margin: 30px 0;
+}
+
+.btn-gray:hover {
+    transform: scale(1.1);
+}
+
+/* Operations section */
 
 
+.op-row {
+    gap: 20px;
+}
 
+.op-col {
+    flex-basis: calc(100% / 3 );
+}
 
+.operations img {
+    width: 100%;
+}
 
+.op-card p {
+    color: #3a3a3a;
+    margin: 40px 0;
+    line-height: 1.4;
+}
+
+.operations {
+    margin-bottom: 150px;
+}
