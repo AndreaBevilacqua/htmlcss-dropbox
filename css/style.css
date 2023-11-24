@@ -85,6 +85,9 @@ ul {
     position: relative;
 }
 
+.h-100 {
+    height: 100%;
+}
 
 /* Header */
 
@@ -334,10 +337,6 @@ a.buy-now {
 }
 
 
-
-
-
-
 /* Footer */
 
 .questions-footer li {
@@ -354,11 +353,37 @@ a.buy-now {
 
 .links-footer {
     background-color: black;
-    min-height: 500px;
     margin-top: 150px;
+    padding: 100px 0 60px 0;
 }
 
-.links-container {
-    flex-basis: calc(100% / 5 );
+.footer-nav > * {
+    flex-basis: calc(100% / 5);
+}
+
+.nav-col {
+    color: white;
+}
+
+h5 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.footer-nav ul {
+    line-height: 2.5;
+}
+
+.container-secondary hr {
+    height: 1px;
+    color: white;
+    width: 8%;
+    margin: 100px 0 60px 0;
+}
+
+.ita {
+    align-items: center;
+    color: #979797;
+    gap: 10px;
 }
 
