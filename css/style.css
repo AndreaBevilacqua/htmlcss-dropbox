@@ -44,6 +44,11 @@ ul {
     list-style-type: none;
 }
 
+a.buy-now:visited, .client a:visited {
+    color: purple; 
+}
+
+
 
 
 /* Utils */
@@ -87,6 +92,31 @@ ul {
 
 .h-100 {
     height: 100%;
+}
+
+.bcg-lightgreen {
+    background-color: #A2D39B;
+}
+.bcg-bordeaux {
+    background-color: #61082B;
+}
+.bcg-lightblue {
+    background-color: #0093CE;
+}
+.bcg-salmon {
+    background-color: #FF1C1C;
+}
+.bcg-red {
+    background-color: #D5001F;
+}
+.bcg-cyan {
+    background-color: #B4D0E7;
+}
+.bcg-blue {
+    background-color: #0D2481;
+}
+.bcg-yellow {
+    background-color: #FFD830;
 }
 
 /* Header */
@@ -169,7 +199,7 @@ h2 {
 /* Checkbox */
 
 .checkbox {
-    gap: 20px;
+    gap: 6px;
     margin-bottom: 80px;
 }
 
@@ -187,7 +217,10 @@ h2 {
     border: 3px solid lightgray; 
     border-radius: 50%;
     position: relative;
+    margin-left: 40px;
   }
+
+
 
   /* Plans */
 
@@ -310,8 +343,49 @@ a.buy-now {
 .client a {
     text-decoration: underline;
     color: blue;
-    margin-bottom: 150px;
 }
+
+.client {
+    margin-bottom: 160px;
+}
+
+/* Clients logos section */
+
+
+.big-box {
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-box {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 15px solid transparent;
+}
+
+.small-box:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.small-box img {
+    width: 50%;
+    filter: invert(1);
+}
+
+.big-box-center {
+    background-color: #F5F5F5;
+    padding: 50px;
+}
+
+.big-box-center img {
+    height: 18%;
+}
+
 
 /* FreeTry section */
 
@@ -336,8 +410,12 @@ a.buy-now {
     top: 90px;
 }
 
+.btn-white:hover {
+    transform: scale(1.1);
+}
 
-/* Footer */
+
+/* Questions Footer */
 
 .questions-footer li {
     padding: 40px 0;
@@ -345,11 +423,14 @@ a.buy-now {
     border-bottom: 1px  solid #666;
     display: flex;
     justify-content: space-between;
+    padding-right: 40px;
 }
 
 .border-top {
     border-top: 1px  solid #666;
 }
+
+/* Links Footer */
 
 .links-footer {
     background-color: black;
@@ -361,13 +442,14 @@ a.buy-now {
     flex-basis: calc(100% / 5);
 }
 
-.nav-col {
+.nav-col a {
     color: white;
 }
 
 h5 {
     font-size: 1.5rem;
     margin-bottom: 30px;
+    color: white;
 }
 
 .footer-nav ul {
